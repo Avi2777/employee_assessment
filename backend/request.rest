@@ -1,0 +1,41 @@
+
+// Get all users
+GET http://localhost:3001/users
+
+###
+
+// Create new user
+POST http://localhost:3001/user/new
+Content-Type: application/json
+
+{
+"firstName": "asssd",
+"lastName": "sadas",
+"email": "asdd@www.com",
+"gender": "Male"
+
+}
+
+###
+
+// Delete user by ID
+DELETE http://localhost:3001/user/delete/63a85a2fa8edcff225abd079
+
+###
+
+// Get user by ID
+GET http://localhost:3001/user/find/63a85a2aa8edcff225abd077
+
+###
+
+// Update User
+PUT http://localhost:3001/user/update/63ab0e61282f7749c9793a25
+Content-Type: application/json
+
+{
+"firstName": "bbbbb",
+"lastName": "sadfff",
+"email": "asdd@www.com",
+"gender": "Male"
+
+}
