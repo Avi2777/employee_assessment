@@ -2,12 +2,11 @@ open a terminal window:
 cd to backend folder
 > npm install
 
-open a terminal window:
+
 cd to client folder
 > npm install
 
 install mongodb-community@5.0
-open new terminal window:
 > brew services start mongodb-community@5.0
 
 cd backend
